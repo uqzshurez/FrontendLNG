@@ -1,14 +1,39 @@
 .row{
     padding: 20px;
-    background-color: #a1b5cb;
+    font-family: 'Palanquin Dark', sans-serif;
 }
-.contenedor{
-    width: auto;
+.general{
+    background: #498ed8;
 }
-.parte1, .parte2{
-    display: inline-block;
+
+h1,h3{
+    display: inline;
+}
+h1{
+    color: white;
+    font-family:"Circus Of Innocents";
+}
+
+
+.img-proyecto {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f7f7f7;
+    padding: 10px;
     text-align: justify;
-}
-.img-proyecto{
-    box-shadow: 10px 10px 20px #d6443c;
-}
+  }
+  
+  

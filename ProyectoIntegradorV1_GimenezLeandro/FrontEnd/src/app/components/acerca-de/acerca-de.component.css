@@ -1,39 +1,88 @@
 
-.row{
-    padding: 20px;
-}
-div{
-    background-color: #a1b5cb;
-    text-align: center;
+/* Estilos para el header */
+.row {
+  padding: 20px;
+  background:linear-gradient(135deg, #e8e9ee, #21a9af);
 }
 
-/*Aca esta el estilo de la foto de perfil*/
-@media (min-width: 576px){
-    #fotodeperfil{
-        position:absolute;
-        width: 15%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 705px;
-    }
-}
-/*Aca esta el estilo de la foto de perfil*/
-@media (max-width: 575px){
-    #fotodeperfil{
-        position:absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 33%;
-        top: 700px;
+/* Estilos para la imagen de perfil */
+#fotodeperfil {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 10px solid #553af0;
 
-    }
+}
+/* Estilos para el título y subtítulo */
+h1, h2 {
+  margin: 0;
 }
 
-/*Aca esta la etiqueta del nombre*/
-
-#nombre{
-    font-weight: bold;
-    margin-top: 30%;
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el artículo */
+article {
+  margin-top: 20px;
+}
+
+/* Estilos para el subtítulo del artículo */
+article h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el párrafo del artículo */
+article p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  font-family: "Bahnschrift SemiBold";
+}
+
+/* Estilos para la imagen de perfil en pantallas con un ancho mínimo de 576px */
+@media (min-width: 576px) {
+  #fotodeperfil {
+    min-width: 200px;
+  }
+}
+
+/*Texto con estilo de tipeo*/
+#name {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2rem;
+  margin: 0 auto;
+  font-family: "Bahnschrift SemiBold";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 4s steps(218) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+p{
+  font-family: "Bahnschrift SemiBold";
+}
+
+

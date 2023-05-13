@@ -2,9 +2,21 @@
     padding: 20px;
     font-family: 'Palanquin Dark', sans-serif;
 }
-div{
-    background: #a1b5cb;
-}
+
 h1,h3{
     display: inline;
+}
+h1{
+    color: white;
+    font-family:"Circus Of Innocents";
+}
+td{
+    padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+    text-align: left;
+    
+}
+.general{
+    background: #498ed8;
 }
